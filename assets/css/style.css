@@ -221,9 +221,15 @@ body {
 
 .page-content {
     background-color: whitesmoke;
-    height: 60vh;
+    /* height: 60vh; */
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 1px 1px 16px #7777;
+}
+
+.card-content{
+    /* background-color: #0f0e47; */
+    padding: 10px;
 }
 
 /* Content */
@@ -231,6 +237,7 @@ body {
 /* Quick Info */
 .d-info {
     padding: 20px;
+    margin-bottom: 10vh;
 }
 
 .card-info {
@@ -258,6 +265,30 @@ body {
     /* width: 10px; */
 }
 
+/* BUtton */
+.btn-b1{
+    background-color: #0f0e47;
+    width: 70%;
+    /* padding: 10px; */
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.btn-b2{
+    background-color: #ec5700;
+    width: 100%;
+    /* padding: 10px; */
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+/* Class Reponsive */
+.desktop{
+    display: inline;
+}
+.mobile{
+    display: none;
+}
+
 /* Quick Info */
 
 /* ----------------------------------------------------------------------------------------------------------------------------- */
@@ -277,6 +308,13 @@ body {
 @media screen and (max-width:1229px) {
 
     /* Begin::Mobile */
+    /* Class Reponsive */
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
     #sidebar {
         position: absolute;
         top: -100vh;
@@ -356,6 +394,7 @@ body {
         color: #0f0e47;
         text-decoration: none;
     }
+
 }
 
 /* END RESPONSIF */
