@@ -1,7 +1,13 @@
 /* CSS */
-body {
-    background: whitesmoke
+html {
+    height: 100%;
 }
+body {
+    height: 100%;
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
 
 #sidebar {
     padding: 0px !important;
@@ -329,6 +335,7 @@ body {
         position: absolute;
         top: -100vh;
         transition: 0.7s;
+        z-index: 1031;
     }
 
     #sidebar.active {
@@ -385,8 +392,11 @@ body {
     
     .nav-mobile.scroll {
         display: inline;
-        padding: 20px;
         background-color: #0f0e47;
+        color: white;
+    }
+    
+    .nav-mobile.scroll a{
         color: white;
     }
 
@@ -403,6 +413,17 @@ body {
     #username a {
         color: #0f0e47;
         text-decoration: none;
+    }
+
+    /* sidebar close btn */
+    .close-sidebar{
+        top: 0px;
+        position: absolute; 
+        z-index: 1032;
+    }
+    .close-sidebar a{
+        color: whitesmoke; 
+        padding: 40px 0px;
     }
 
 }
