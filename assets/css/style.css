@@ -379,6 +379,16 @@ body {
         box-shadow: 1px 1px 16px #7777;
     }
 
+    .bottom-menu a.active{
+        background-color: #ec5700;
+        padding: 10px !important;
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+
     .d-diri {
         display: none;
     }
@@ -423,7 +433,7 @@ body {
     }
     .close-sidebar a{
         color: whitesmoke; 
-        padding: 40px 0px;
+        padding: 40px 10px;
     }
 
 }
