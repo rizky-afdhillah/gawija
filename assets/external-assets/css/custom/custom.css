@@ -1,0 +1,111 @@
+/*================================================================================
+*Custom CSS
+================================================================================
+
+/* ================Begin::Slide================== */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-claim .swiper-slide:nth-child(1n) {
+    width: 400px;
+}
+
+.swiper-slide .card{
+	width: 100%;
+	padding: 30px 0px;
+}
+/* ================End::Slide================== */
+
+
+/* ===============Begin:Invoice================ */
+.head-inv{
+  margin: 0px;
+  padding: 0px;
+  /* background-image: url(../../images/invoice/header-inv.png); */
+  /* height: 100px; */
+  /* background-size: 110%; */
+  /* background-position: center -13px; */
+  /* background-repeat: no-repeat; */
+}
+
+.invoice-print-area{
+  overflow: hidden;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* Body */
+.body-inv{
+  padding: 0px 20px;
+}
+
+.invoice-logo-title .title{
+  color: #365B4A !important;
+}
+
+/* Table */
+.head-list-inv{
+  background-color: #365B4A !important;
+  color: #fff;;
+}
+
+.list-p-inv.p{
+  background-color: #FFFF !important;
+  color: #365B4A;
+}
+.list-p-inv.k{
+  background-color: #469071 !important;
+  color: #fff;
+}
+/* Table */
+/* Footer */
+.footer-inv{
+  margin: 0px;
+  padding: 0px;
+  /* background-image: url(../../images/invoice/footer-inv.png);
+  height: 100px;
+  background-size: 110%;
+  background-position: center 17px;
+  background-repeat: no-repeat; */
+}
+/* Footer */
+
+/* ======================================================== */
+/* ============ Tampilan Responsive ======================== */
+@media screen and (min-width:992px) {
+
+  /*tampilan dekstop*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /*tampilan tablet*/
+
+@media screen and (max-width:768px) {
+
+  /*tampilan smartphone*/
+  
+}
+/* ===============Begin:Invoice================ */
