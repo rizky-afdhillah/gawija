@@ -243,7 +243,6 @@ body {
 /* Quick Info */
 .d-info {
     padding: 20px;
-    margin-bottom: 10vh;
 }
 
 .card-info {
@@ -436,6 +435,9 @@ body {
         padding: 40px 10px;
     }
 
+    .jarak-bottom-menu{
+        margin-bottom: 10vh;
+    }
 }
 
 /* END RESPONSIF */
